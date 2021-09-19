@@ -1,13 +1,13 @@
-![ #Have endless fun in the indoor sun!](https://i.ibb.co/MBqQPKR/logo.jpg)
+![ #Have endless fun in the indoor sun!](https://ibb.co/S0m8V0d)
   <center>  #Have endless fun in the indoor sun! </center>
 
 
  # ⭐ Inspiration
 
-> Lockdown due to the **pandemic** has really taken a toll on all of us and we’ve been stuck in our homes for ages. It has been hard to venture out. We’ve tried to bring in a little bit of fun virtually this summer.
+> -A **post-COVID-19** world will not be the same one we knew before, but it can be a better one if people help each other. So we thought to create a website for interaction between people and they can request for help also.
 ## 💡 Idea
 
-> We’ve designed a beach themed website that lets you get a virtual experience with the help of sky box images. Sit back and enjoy the live experience through 3D viewing.
+>This website will provide a platform to users for asking help or requesting any work and other users can see it and contact them to provide help
 ## 💻Tools and Resources
    > languages used
  <img  alt="HTML5" width="25px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">   
@@ -17,10 +17,7 @@
 <img  alt="JavaScript" width="25px" src="https://img.stackshare.io/service/5883/preview.png">
 
 >Resources
--  [Freepik](Freepik.com)
- -   [ Flaticon](Flaticon.com)
-   -  [Vecteezy](Vecteezy.com)
-     - [ Slidesgo](Slidesgo.com)
+     - [ Canva](canva.com)
       - [Google Fonts](https://fonts.google.com/)
 
 
@@ -30,4 +27,4 @@
 
 ### Links
 
-   > [Git repo](https://github.com/MLH-SURFS-UP-HACK/Sand_Castle_An_Error404_Product)
+   > [Git repo](https://github.com/Jaswanth1410/SEEK-GIVE)
