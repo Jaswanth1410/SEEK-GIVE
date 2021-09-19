@@ -1,5 +1,5 @@
 ![ #Have endless fun in the indoor sun!](images/logo.jpg)
-  <center>  #Have endless fun in the indoor sun! </center>
+  <center> Help Each Other </center>
 
 
  # ⭐ Inspiration
