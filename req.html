@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seek & Give</title>
+    <link rel="icon" href="images/icon.jpg" />
+    <link rel="stylesheet" href="css/paostreq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <section class="nav">        
+        <nav >
+            <div class= "header"><img src="images/logo.jpg" alt=""></div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pastreq.html">Help Request</a></li>
+                    <li><a href="req.html">Post a Request</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                   
+                </ul> 
+            </div>
+        </nav>
+        </section>
+        <center> 
+        <section class="form">
+            <h1 class="head"> Post a Help Request</h1>
+            <form action="" id="reqform">
+                <span class="ename">
+                    <input type="text" name="" id="ename" placeholder="Enter Name">
+                </span>
+                <span class="email">
+                    <input type="text" name="" id="email" placeholder="Enter Email">
+                </span>
+                <div class="hreq">
+                    <textarea name="" id="hreq" placeholder="Enter Ur Request"></textarea>
+                </div>
+                <span class="email">
+                    <input type="text" name="" id="place" placeholder="Enter Ur place">
+                </span>
+                <span class="submit">
+                    <input type="submit" onsubmit="add()" id="submit" value="Post The Request">
+                </span>
+            </form>
+        </section></center>
+</section>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+<script src="js/req.js"></script>
+</body>
+</html>

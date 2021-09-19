@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.help{
+    background-color: #7d2ae8;
+    min-height: 100vh;}
+.nav-links{
+    flex: 1;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:8px;
+    padding-bottom:8px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color:red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+} 
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.header{
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header img{
+    background: transparent;
+    width: 180px;
+    /* height: 50px; */
+}
+
+.nav-links ul li a:hover{
+    color: rgb(220, 236, 0);
+}
+#user{
+    background-color: tomato;
+    border-radius: 60% ;
+    border: 1px solid black;
+}
+table{
+    width: 50%;
+    padding: 10px;
+    padding-top: 25px;
+
+}
+/* tr{
+    : 15px;
+} */
+td{
+    border: 1px solid red;
+    margin: 8px;
+    padding: 15px;
+    background-color: thistle;
+    border-radius: 15px;
+}
+.icon{
+    margin: 10px;
+    margin-left: 0;
+    padding: 8px 15px 8px 15px;
+    background: tomato;
+    color: whitesmoke;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.name{
+    margin: 10px;
+    font-size: 30px;
+    padding: 8px;
+}
+.helpreq{
+    padding: 20px 10px 10px 8px;
+    margin-top: 15px;
+    text-align: justify;
+}
+.mail{
+    padding: 8px ;
+    margin-top: 5px;
+    font-size: 20px;
+}
+h1{
+    margin: 15px;
+    padding: 20px;
+}
+/* form */
+
+.form{
+   
+    align-content: center;
+    background-color: #7d2ae8;
+    min-height: 100vh;
+}
+#ename,#email{
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+}
+.ename{
+    margin-right: 8px;
+}
+#hreq{
+    width: 610px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 25px;
+}
+#reqform{
+    border: 1px solid tomato;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 3%;
+    width: 45%;
+    background-color: silver;
+}
+#place{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 15px;
+}
+#submit{
+    width: 200px;
+    height: 30px;
+    /* padding: 10px;
+    margin-top: 25px; */
+}
+@media (max-width: 730px) {
+    #ename,#email,#place{
+        width: 50%;
+    }
+    #hreq{
+        max-width: 300px;
+    }
+}
